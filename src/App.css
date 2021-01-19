@@ -1,0 +1,76 @@
+    /* Nav links */
+
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.7;
+        color: #777;
+        /* padding: 30px; */
+    }
+    .navbar-light .navbar-nav a.nav-link  {
+        color:white;
+    }
+
+    nav a.nav-link {
+        font-weight: 500; 
+        letter-spacing: 0.0375rem; 
+        cursor: pointer;
+    } 
+
+    .navbar-nav > li > a {
+        margin: 0.75rem;
+        margin-left: 0.75;
+
+    }  
+
+    .navbar-brand{
+        max-width: 17.25rem;
+        padding: 0;
+        
+    }
+
+    .main-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+     .main-info h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        color:white;
+    } 
+
+     .header-wraper {
+        position: relative;
+        background: url(workspace.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+    } 
+
+    .footer{
+        margin-top: 1rem;
+        padding: 1rem;
+        /* background-color: rgb(235, 195, 64); */
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color:white;
+    }
+
+
