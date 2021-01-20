@@ -2,14 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import './App.css';
-import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact.js';
 import Portfolio from './pages/Portfolio';
-// import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Header from './components/Header';
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 
@@ -19,7 +17,6 @@ function App() {
       <Router>
         <Navbar />
         <Header />
-        {/* <Header /> */}
       <Switch>
         <Route path='/' exact component={About} />
         <Route path='/about' component={About} />

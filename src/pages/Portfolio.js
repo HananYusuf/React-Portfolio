@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css';
+import car from "./image/car.png"
 
 
 function Portfolio() {
@@ -57,7 +58,7 @@ function Portfolio() {
                     </article>
                     <article className="col mb-4">
                         <div className="card">
-                            <img src="./Images/car.png" className="card-img-top" alt="car" />
+                            <img src={car} className="card-img-top" alt="car" />
                             <div className="card-body">
                                 <h5 className="card-title">Asset Tracker</h5>
                                 <p className="card-text">This is an application that tracks your asset. i.e Vehicles in addition it shows you

@@ -1,5 +1,4 @@
-    // import React, { useState, useEffect } from 'react';
-    // import { Button } from './Button';
+
     import { Link, useLocation} from 'react-router-dom';
 
     const Navbar= () => {
