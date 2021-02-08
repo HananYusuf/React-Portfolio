@@ -64,12 +64,22 @@ function Portfolio() {
                                 <p className="card-text">This is an application that tracks your asset. i.e Vehicles in addition it shows you
                                 desscription of all assets.
                         </p>
-                                <a href="https://arcane-basin-49331.herokuapp.com/" target="_blank" rel="noreferrer">Full stack app</a>
+                                <a href="https://arcane-basin-49331.herokuapp.com/" target="_blank" rel="noreferrer">Full stack app</a> <br/>
                                 <a href="https://github.com/HananYusuf/Projectect2" target="_blank" rel="noreferrer">Link to Repository Information</a>
                             </div>
                         </div>
                     </article>
-
+                    <article className="col mb-4">
+                        <div className="card">
+                            <img src="https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2230&q=80" className="card-img-top" alt="cooking" />
+                            <div className="card-body">
+                                <h5 className="card-title">Aljin's Kitchen</h5>
+                                <p className="card-text"> A MERN stack application designed to search recipes based on the ingredients provided by users from a third party API.</p>
+                                <a href="https://secret-refuge-22447.herokuapp.com/" target="_blank" rel="noreferrer">MERN stack app</a><br />
+                                <a href="https://github.com/JoseSachango/Aljins-Kitchen-Revamped" target="_blank" rel="noreferrer">Link to Repository Information</a>
+                            </div>
+                        </div>
+                    </article>
                 </section>
 
             </main>
